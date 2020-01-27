@@ -5,6 +5,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-
+    <servlet>
+        <servlet-name>NameCrudOperation</servlet-name>
+        <servlet-class>servlets.CrudServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NameCrudOperation</servlet-name>
+        <url-pattern>/crud_operation</url-pattern>
+    </servlet-mapping>
 </web-app>
         
