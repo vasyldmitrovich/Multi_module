@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: vasyl
-  Date: 27.01.20
-  Time: 21:39
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
@@ -16,6 +9,6 @@
     <br>
     <p>If you want to do CRUD operation with pets click button</p>
 </div>
-<button onclick="location.href='/crud_operation'">I think i really like crud operation :-)</button>
+<button onclick="location.href='/crud_operation'">I really want to try CRUD operation :-)</button>
 </body>
 </html>

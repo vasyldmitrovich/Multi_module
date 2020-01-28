@@ -3,7 +3,6 @@ package describe_obj;
 import java.util.Objects;
 
 public class Pets {
-    /*A class that describes pets*/
     private String name;
     private int age;
     private String breed;
