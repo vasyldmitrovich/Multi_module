@@ -15,7 +15,7 @@ This is page crud operation where we will show operation with pets<br>
 We should add form, filed, button and other.
 <br>
 <br>
-<form method="post">
+<form name="FuckYou" method="post" action="FuckServlet">
     <label>Name:
         <input type="text" name="name">
     </label>

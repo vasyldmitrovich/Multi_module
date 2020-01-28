@@ -13,6 +13,13 @@
         <servlet-name>NameCrudOperation</servlet-name>
         <url-pattern>/crud_operation</url-pattern>
     </servlet-mapping>
-
+    <servlet>
+        <servlet-name>FuckCrudOperation</servlet-name>
+        <servlet-class>com.multiModuleApplication.FuckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FuckCrudOperation</servlet-name>
+        <url-pattern>/FuckServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
         
