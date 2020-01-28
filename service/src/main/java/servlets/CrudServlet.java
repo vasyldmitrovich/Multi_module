@@ -19,7 +19,7 @@ public class CrudServlet extends HttpServlet {
         String age = request.getParameter("age");
         int resultAge = Integer.parseInt(age);
         String breed = request.getParameter("breed");
-        System.out.println("name is: "+name+" age is:"+age+" breeed is: "+breed);
+        System.out.println("name is: "+name+" age is:"+age+" breed is: "+breed);
         Pets pets = new Pets(name,resultAge,breed);
         Model model = new Model();
         model.setArrayList(pets);
