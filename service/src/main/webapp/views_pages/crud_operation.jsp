@@ -10,11 +10,12 @@
 <head>
     <title>Page_crud_operation</title>
 </head>
-<body>
+<body style="background-color: darkgray">
 This is page crud operation where we will show operation with pets<br>
 We should add form, filed, button and other.
-
-<form method="post" action="crud_operation.jsp">
+<br>
+<br>
+<form method="post">
     <label>Name:
         <input type="text" name="name">
     </label>
@@ -26,5 +27,9 @@ We should add form, filed, button and other.
     </label>
     <button type="submit">Click this button, you are add pets</button>
 </form>
+<% java.util.Date now = new java.util.Date(); String dateNow = "Date now is: "+now;%>
+<%= dateNow %>
+<br>
+
 </body>
 </html>
